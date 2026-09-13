@@ -117,13 +117,22 @@ The suite expects a registered Demoblaze user to exist in `cypress.env.json` bef
 Before running the tests, install the required dependencies:
 
 - Node.js (LTS version recommended)
-- npm(version > 11.0)
+- npm(version >= 11.0)
+- git(version >= 2.55.0)
 
 ## Installation
 
+## Check out the Git Repository on Your Local Machine
+
+Clone the project onto your machine by the following commands and then install the node package dependencies:
+
 ```bash
+git clone https://github.com/batabek/demoblaze_task.git
+cd demoblaze_task
 npm install
 ```
+
+After the repository is available locally, you can run the Cypress tests with the commands below.
 
 ## Running the Tests
 
